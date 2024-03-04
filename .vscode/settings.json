@@ -1,0 +1,17 @@
+{
+  "files.exclude": {
+    "**/build/**": true
+  },
+  "typescript.preferences.importModuleSpecifierEnding": "js",
+  "jest.runMode": "on-save",
+
+  // rvest.vs-code-prettier-eslint config start
+  "editor.defaultFormatter": "rvest.vs-code-prettier-eslint",
+  "editor.formatOnPaste": false,
+  "editor.formatOnType": false,
+  "editor.formatOnSave": true,
+  "editor.formatOnSaveMode": "file",
+  "files.autoSave": "onFocusChange",
+  "vs-code-prettier-eslint.prettierLast": false
+  // rvest.vs-code-prettier-eslint config end
+}

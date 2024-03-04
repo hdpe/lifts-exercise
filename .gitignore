@@ -1,0 +1,10 @@
+.DS_Store
+
+.sw*
+!.swcrc
+!.swc/*
+
+node_modules
+
+build/
+coverage/

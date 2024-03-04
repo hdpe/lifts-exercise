@@ -1,0 +1,28 @@
+{
+  "$schema": "http://json.schemastore.org/swcrc",
+  "exclude": "node_modules",
+  "jsc": {
+    "parser": {
+      "syntax": "typescript"
+    },
+    "target": "esnext",
+    "experimental": {
+      "plugins": [
+        [
+          "@swc/plugin-transform-imports",
+          {
+            "^(.*?)(\\.ts)$": {
+              "skipDefaultConversion": true,
+              "transform": "{{matches.[1]}}.js"
+            }
+          }
+        ]
+      ]
+    }
+  },
+  "module": {
+    "type": "es6",
+    "noInterop": false
+  },
+  "sourceMaps": "inline"
+}
